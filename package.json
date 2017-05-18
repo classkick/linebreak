@@ -27,7 +27,7 @@
     "mocha": "*"
   },
   "scripts": {
-    "prepublish": "coffee -c src/",
+    "postpublish": "coffee -c src/",
     "preinstall": "coffee -c src/",
     "postpublish": "rm -rf src/*.js",
     "test": "node_modules/mocha/bin/mocha"
