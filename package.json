@@ -28,6 +28,7 @@
   },
   "scripts": {
     "prepublish": "coffee -c src/",
+    "preinstall": "coffee -c src/",
     "postpublish": "rm -rf src/*.js",
     "test": "node_modules/mocha/bin/mocha"
   },
