@@ -29,7 +29,6 @@
   "scripts": {
     "prepublish": "coffee -c src/",
     "postpublish": "rm -rf src/*.js",
-    "postinstall": "coffee -c src/",
     "test": "node_modules/mocha/bin/mocha"
   },
   "main": "src/linebreaker",
