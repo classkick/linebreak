@@ -13,6 +13,12 @@ This is a JavaScript/CoffeeScript implementation of the
 line wrapping text in PDF documents, but since the algorithm knows nothing about the actual
 visual appearance or layout of text, it could be used for other things as well.
 
+## Classkick Usage
+
+Classkick is hosting this version of the linebreak library to support text rendering.
+We are hosting our own version of the library so we can properly transpile the src library
+and import through npm into our web app.
+
 ## Installation
 
 You can install via npm
